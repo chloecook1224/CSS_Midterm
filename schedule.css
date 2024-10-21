@@ -1,0 +1,38 @@
+.container{
+    display:flex;
+    justify-content: space-around;
+    /* border: 5px solid black; */
+    flex-wrap: wrap;
+    background-color: #6F7C44;
+    padding: 5px;
+}
+.box{
+    width: 30%;
+    /* height: 200px; */
+    padding:1%;
+    color:#6F7C44;
+    
+    
+}
+#box1{
+
+    background-color: #F8F4F1;
+    
+}
+.box img{
+    width:80%;
+    display: block;
+    margin: auto;
+    padding:3%;
+}
+#box2{
+    background-color: #F8F4F1;
+}
+#box3{
+    background-color: #F8F4F1;
+}
+
+.date {
+    color: #6F7C44;
+    font-weight: bold;
+}
