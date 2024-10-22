@@ -4,7 +4,7 @@
 nav {
   background-color: #9E9D6D;
   padding: .6em;
-  position: sticky; /* Make the navbar sticky */
+  position: sticky; 
   top: 0; 
   z-index: 1000; 
 }
@@ -37,12 +37,12 @@ body{
   font-family: "Lucida Console", monospace;
 }
 
-.Queations{
+.Questions{
   color: #F8F4F1;
   padding: .10em;
   background-color: #DDCAB9;
   display: flex; 
-  justify-content: left;
+  justify-content: center;
   font-size: 50px;
   font-family: "Lucida Console", monospace;
 }
