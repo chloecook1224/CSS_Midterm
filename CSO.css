@@ -114,7 +114,7 @@ article {
     gap: 20px;
     margin-top: 20px;
 }
-#box {
+#box_2 {
     background-color: #DDCAB9; 
     position: absolute; /* Use absolute positioning */
     z-index: -1; /* Send it behind other content */
