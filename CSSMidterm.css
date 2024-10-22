@@ -1,12 +1,49 @@
-body {
-  background-color: #fff;
-  color: #333;
-  margin: 0;
-  font: 1.2em / 1.2 Arial, Helvetica, sans-serif;
-}
+
+
 
 nav {
-  background-color: #43352c;
-  padding: .5em;
-  gap: 10px; 
+  background-color: #9E9D6D;
+  padding: .6em;
+  position: sticky; /* Make the navbar sticky */
+  top: 0; 
+  z-index: 1000; 
 }
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex; 
+  justify-content: space-around; 
+}
+nav a {
+  color: #F8F4F1;;
+  text-decoration: none;
+  padding: .5em 1em;
+  font-family: "Lucida Console", monospace;
+}
+li a:hover{
+  background-color: #6F7C44;
+  border-radius: 25px;
+}
+body{
+  background-color: #F8F4F1;
+}
+.title{
+  color: #F8F4F1;
+  background-color: #DDCAB9;
+  display: flex; 
+  justify-content: center;
+  font-size: 25px;
+  font-family: "Lucida Console", monospace;
+}
+
+.Queations{
+  color: #F8F4F1;
+  padding: .10em;
+  background-color: #DDCAB9;
+  display: flex; 
+  justify-content: left;
+  font-size: 50px;
+  font-family: "Lucida Console", monospace;
+}
+
