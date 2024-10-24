@@ -7,18 +7,20 @@
     <link href="CSSMidterm.css" rel="stylesheet" type="text/css">
   </head>
   <style>
+    /* Add styles for the form layout */
     form div {
           margin-bottom: 20px;
           display: flex;
-          flex-direction: column;
+          flex-direction: column; /* Ensures label and input are in a column (stacked vertically) */
       }
+
       label {
           margin-bottom: 5px;
       }
 
       input, textarea {
-      background-color: #f1efef; 
-      border: 2px solid #4e6f29; 
+      background-color: #f1efef; /* Light blue color */
+      border: 2px solid #4e6f29; /* Add a border around the input */
       padding: 10px;
       width: 100%;
       box-sizing: border-box;
@@ -42,37 +44,37 @@
         </ul>
 </nav>
 <article>
-    <div id="title" class="title">
-        <p><b>Contact</b></p>
+  <div id="title" class="title">
+      <p><b>Contact</b></p>
+  </div>
+
+  <div id="Questions?" class="Questions">
+    <p><b>Questions?<br>Contact Us:</b></p>
+    <img src="images/images.png" alt="Questions guy">
+</div>
+  <!-- Form Section -->
+  <form action="/submit-form" method="POST">
+    <!-- Name Input -->
+    <div id="Name" class="Name">
+      <label for="name"><b>Name</b></label><br>
+      <input type="text" id="name" name="name" placeholder="Your Name" required><br><br>
+    </div>
+    
+    <!-- Email Input -->
+    <div id="Email" class="Email">
+      <label for="email"><b>Email</b></label><br>
+      <input type="email" id="email" name="email" placeholder="Your Email" required><br><br>
     </div>
 
-    <div id="Questions?" class="Questions">
-      <p><b>Questions?<br>Contact Us:</b></p>
-      <img src="images/images.png" alt="Questions guy">
-  </div>
-    
-    <form action="/submit-form" method="POST">
-      
-      <div id="Name" class="Name">
-        <label for="name"><b>Name</b></label><br>
-        <input type="text" id="name" name="name" placeholder="Your Name" required><br><br>
-      </div>
-      
-      
-      <div id="Email" class="Email">
-        <label for="email"><b>Email</b></label><br>
-        <input type="email" id="email" name="email" placeholder="Your Email" required><br><br>
-      </div>
+    <!-- Comments/Questions Text Area -->
+    <div id="Comments" class="Comments">
+      <label for="comments"><b>Questions or Comments?</b></label><br>
+      <textarea id="comments" name="comments" rows="5" cols="30" placeholder="Questions or Comments?"></textarea><br><br>
+    </div>
 
-      
-      <div id="Comments" class="Comments">
-        <label for="comments"><b>Questions or Comments?</b></label><br>
-        <textarea id="comments" name="comments" rows="5" cols="30" placeholder="Questions or Comments?"></textarea><br><br>
-      </div>
-
-      
-      <button type="submit">Submit</button>
-    </form>
+    <!-- Submit Button -->
+    <button type="submit">Submit</button>
+  </form>
 </div>
 
 </body>
