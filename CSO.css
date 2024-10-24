@@ -121,7 +121,80 @@ article {
     left: 0;
     right: 0;
     margin: 10px;
-    top: 550px;
+    top: 540px;
 }
 
 
+.container_2{
+    display:flex;
+    justify-content: space-around;
+    /* border: 5px solid black; */
+    flex-wrap: wrap;
+    background-color: #6F7C44;
+    padding: 5px;
+}
+.box{
+    width: 30%;
+    /* height: 200px; */
+    padding:1%;
+    color:#6F7C44;
+    
+    
+}
+#box1{
+    background-color: #F8F4F1;
+    
+}
+.box img{
+    width:80%;
+    display: block;
+    margin: auto;
+    padding:3%;
+}
+#box2{
+    background-color: #F8F4F1;
+}
+#box3{
+    background-color: #F8F4F1;
+}
+
+.date {
+    color: #6F7C44;
+    font-weight: bold;
+}
+.schedule{
+    color: #F8F4F1;
+    background-color: #DDCAB9;
+    display: flex; 
+    justify-content: center;
+    font-size: 25px;
+    font-family: "Lucida Console", monospace;
+    margin-top: 7%;
+}
+nav {
+    background-color: #9E9D6D;
+    padding: .6em;
+    position: sticky; 
+    top: 0; 
+    z-index: 1000; 
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex; 
+    justify-content: space-around; 
+}
+nav a {
+    color: #F8F4F1;;
+    text-decoration: none;
+    padding: .5em 1em;
+    font-family: "Lucida Console", monospace;
+}
+li a:hover{
+    background-color: #6F7C44;
+    border-radius: 25px;
+}
+body{
+    background-color: #F8F4F1;
+}
