@@ -1,19 +1,21 @@
 nav {
     background-color: #9E9D6D;
-    padding: .6em;
-    position: sticky; 
-    top: 0; 
-    z-index: 1000; 
+    /* padding-bottom: .6em; */
+    position: sticky;  
+    top:0;
+    z-index: 1000;
+    border-bottom: solid 4px #DDCAB9;
 }
 nav ul {
+    padding-top: .6em;
     margin: 0;
-    padding: 0;
+    padding: 10px;
     list-style: none;
-    display: flex; 
+    display: flex;
     justify-content: space-around; 
 }
 nav a {
-    color: #F8F4F1;;
+    color: #F8F4F1;
     text-decoration: none;
     padding: .5em 1em;
     font-family: "Lucida Console", monospace;
@@ -25,17 +27,16 @@ li a:hover{
 body{
     background-color: #F8F4F1;
 }
-.title{
-    color: #F8F4F1;
+.title {
+    color: #6F7C44;
     background-color: #DDCAB9;
     display: flex; 
     justify-content: center;
-    font-size: 25px;
+    align-items: center; 
+    font-size: 20px;
     font-family: "Lucida Console", monospace;
+    width: 100%; /* Make it full width */
 }
-
-
-
 
 
 article {
@@ -60,21 +61,21 @@ article {
 
 /* Style for the Yumi image section */
 #yumi {
-    /* margin-top: 100px; */
-    margin-left: 30px;
-    height: 25px;
-    width: auto;
+    margin-left: 0px;
+    margin-right: 20px;
     position: absolute; 
-    top: 130px;
+    top: 50px;
     z-index: -1; 
+    box-shadow: 0px 0px 0px 0px #DDCAB9;
 }
 
 #yumi img {
-    height: 1200%;
-    width: auto;
+    width: 100%;  /* Set width to 100% to make it responsive */
+    height: auto;
     border: 10px solid #9E9D6D; 
-    box-shadow: 10px solid #DDCAB9;
+    box-shadow: 0px 0px 0px 0px #DDCAB9;
 }
+
 
 .container {
     width: 1366px; 
@@ -121,7 +122,7 @@ article {
     left: 0;
     right: 0;
     margin: 10px;
-    top: 540px;
+    top: 450px;
 }
 
 
@@ -171,30 +172,11 @@ article {
     font-family: "Lucida Console", monospace;
     margin-top: 7%;
 }
-nav {
-    background-color: #9E9D6D;
-    padding: .6em;
-    position: sticky; 
-    top: 0; 
-    z-index: 1000; 
-}
-nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    display: flex; 
-    justify-content: space-around; 
-}
-nav a {
-    color: #F8F4F1;;
-    text-decoration: none;
-    padding: .5em 1em;
-    font-family: "Lucida Console", monospace;
-}
-li a:hover{
-    background-color: #6F7C44;
-    border-radius: 25px;
-}
+
 body{
     background-color: #F8F4F1;
 }
+
+/* #article_1{
+    display: grid;
+} */
