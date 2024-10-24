@@ -1,3 +1,6 @@
+
+
+
 nav {
   background-color: #9E9D6D;
   padding: .6em;
@@ -32,18 +35,44 @@ body{
   justify-content: center;
   font-size: 25px;
   font-family: "Lucida Console", monospace;
+  margin: 0;
+  padding: 0;
 }
 
-.Questions{
-  color: #F8F4F1;
+.Questions {
+    color: #768529;
+    padding: .10em;
+    background-color: #DDCAB9;
+    display: flex; 
+    justify-content: space-around;
+    font-size: 60px;
+    font-family: "Lucida Console", monospace;
+    margin: 20px;
+    padding: 0px;
+
+  }
+.Name{
+  color: #5e643a;
   padding: .10em;
-  background-color: #DDCAB9;
   display: flex; 
-  justify-content: center;
-  font-size: 50px;
+  justify-content: left;
+  font-size: 15px;
   font-family: "Lucida Console", monospace;
 }
 
-
-
-
+.Email{
+  color: #5e643a;
+  padding: .10em;
+  display: flex; 
+  justify-content: left;
+  font-size: 15px;
+  font-family: "Lucida Console", monospace;
+}
+.Comments{
+  color: #5e643a;
+  padding: .10em;
+  display: flex; 
+  justify-content: left;
+  font-size: 15px;
+  font-family: "Lucida Console", monospace;
+}
