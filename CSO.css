@@ -131,7 +131,7 @@ article {
     justify-content: space-around;
     /* border: 5px solid black; */
     flex-wrap: wrap;
-    background-color: #6F7C44;
+    background-color: #9E9D6D;
     padding: 5px;
 }
 .box{
@@ -164,7 +164,7 @@ article {
     font-weight: bold;
 }
 .schedule{
-    color: #F8F4F1;
+    color: #6F7C44;
     background-color: #DDCAB9;
     display: flex; 
     justify-content: center;
