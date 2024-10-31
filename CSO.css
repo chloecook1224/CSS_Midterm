@@ -258,14 +258,15 @@ body{
     color: #6F7C44;
  }
  
+
  .container_3{
     width: 1366px; 
     overflow-x: auto; 
 }
 .Bela-image{
-    margin-left: 570px;
+    margin-left: 600px;
     position: absolute; 
-    margin-top: 70px;
+    margin-top: 85px;
     z-index: -1; 
     box-shadow: 0px 0px 0px 0px #DDCAB9;
 
@@ -273,7 +274,7 @@ body{
 .box_bella{
     position: absolute; 
     width: 100%;
-    background-color: #9E9D6D;
+    background-color: #DDCAB9;
     margin-top: 50px;
     right: 10px;
     z-index: -2;
@@ -281,17 +282,16 @@ body{
 #Bela-image img{
     width: 100%;  /* Set width to 100% to make it responsive */
     height: auto;
-    border: 20px solid #9E9D6D; 
-    box-shadow: 0px 0px 0px 0px #DDCAB9;
+    border: 10px solid #DDCAB9;
 }
 
 .about-intro{
-    /* font-size: 20px; */
+    color: #F8F4F1;
     width: 35%; 
     margin-top: 20px;
     margin-left: 0px;
     float: left; 
-    background-color: #DDCAB9; 
+    background-color: #9E9D6D; 
     padding: 20px; 
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */ 
     /* border: 20px solid #9E9D6D; */
