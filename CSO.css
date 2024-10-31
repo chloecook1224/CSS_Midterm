@@ -180,3 +180,119 @@ body{
 /* #article_1{
     display: grid;
 } */
+
+
+
+/* ABOUT */
+#about-meet-symphony {
+    background-color: #e8e8db;
+    margin-top: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    float: right;
+ }
+ 
+ 
+ .about-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #6F7C44;
+ }
+ 
+ 
+ .Bela-image img {
+    border: 5px solid #6F7C44;
+    max-width: 80%;
+    height: auto;
+    margin-right: 20px;
+ }
+ 
+ 
+ .Red-Rocks-image img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: 0;
+ }
+ 
+ 
+ #red-rock {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+ }
+ 
+ 
+ #mission-values,#red-rock, #dei-statement, #what-we-offer {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    color: #6F7C44;
+ }
+ 
+ 
+ .mission, .values {
+    margin: 20px 0;
+ }
+ 
+ 
+ 
+ 
+ ul {
+    padding-left: 20px;
+ }
+ 
+ 
+ ul li {
+    margin: 10px 0;
+ }
+ 
+ 
+ ul li strong {
+    color: #6F7C44;
+ }
+ 
+ .container_3{
+    width: 1366px; 
+    overflow-x: auto; 
+}
+.Bela-image{
+    margin-left: 570px;
+    position: absolute; 
+    margin-top: 70px;
+    z-index: -1; 
+    box-shadow: 0px 0px 0px 0px #DDCAB9;
+
+}
+.box_bella{
+    position: absolute; 
+    width: 100%;
+    background-color: #9E9D6D;
+    margin-top: 50px;
+    right: 10px;
+    z-index: -2;
+}
+#Bela-image img{
+    width: 100%;  /* Set width to 100% to make it responsive */
+    height: auto;
+    border: 20px solid #9E9D6D; 
+    box-shadow: 0px 0px 0px 0px #DDCAB9;
+}
+
+.about-intro{
+    /* font-size: 20px; */
+    width: 35%; 
+    margin-top: 20px;
+    margin-left: 0px;
+    float: left; 
+    background-color: #DDCAB9; 
+    padding: 20px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */ 
+    /* border: 20px solid #9E9D6D; */
+}
