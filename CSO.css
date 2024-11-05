@@ -142,10 +142,47 @@ article {
     
     
 }
-#box1{
+#box1_1{
     background-color: #F8F4F1;
     
 }
+#box2_1 {
+   background-color: #F8F4F1;
+   
+}
+#box3_1 {
+   background-color: #F8F4F1;
+   
+}
+#box1_2{
+   background-color: #F8F4F1;
+   
+}
+#box2_2 {
+  background-color: #F8F4F1;
+  
+}
+#box3_2 {
+  background-color: #F8F4F1;
+  
+}
+#box1_3{
+   background-color: #F8F4F1;
+   
+}
+#box2_3 {
+  background-color: #F8F4F1;
+  
+}
+#box3_3 {
+  background-color: #F8F4F1;
+  
+}
+#box1_4 {
+   background-color: #F8F4F1;
+   
+ }
+
 .box img{
     width:80%;
     display: block;
