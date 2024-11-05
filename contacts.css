@@ -1,0 +1,100 @@
+
+
+.title3{
+    color: #6F7C44;
+    background-color: #DDCAB9;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    margin: 0;
+    padding: 10;
+    position: sticky;
+   
+  }
+  .small-image {
+    width: 500px;  /* Set width to 100% to make it responsive */
+    height: auto;
+  }
+  .Questions{
+    text-align: center;
+    color: #6F7C44;
+    padding: .10em;
+    background-color: #DDCAB9;
+    display: flex;
+    justify-content: space-between;
+    font-size: 50px;
+    margin: 12px;
+    padding: 0;
+  }
+  .Questions p{
+    margin-left: 100px;
+    margin-top: 100px;
+  
+  
+  }
+  .box5{
+    color: #e8e8db;
+    padding: .10em;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    margin: 12px;
+    padding: 2;
+    text-align: center;
+    background-color: #9E9D6D;
+  }
+  .parent-container {
+    display: flex;             
+    justify-content: space-between;
+    align-items: flex-start;  
+    margin: 0;       
+    padding: 1em;  
+    flex-wrap: wrap;
+  }
+  .Info {
+    position: sticky;
+    text-align: center;
+    color: #768529;
+    border: 20px solid #9E9D6D;
+    padding: .10em;
+    background-color: #DDCAB9;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    padding: 6em;             /* Adjust padding as needed */
+    max-width: 300px;
+  }
+  .Closures {
+    text-align: center;
+    color: #768529;
+    border: 20px solid #9E9D6D;
+    padding: .10em;
+    background-color: #DDCAB9;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    padding: 6em;             /* Adjust padding as needed */
+    max-width: 300px;
+    height: 493px;
+    min-width: 300px;
+    padding-bottom: 125px;
+  }
+  .Contact{
+    position: sticky;
+    text-align: center;
+    border: 20px solid #9E9D6D;
+    color: #768529;
+    padding: .10em;
+    background-color: #DDCAB9;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    margin: 12px;
+    padding: 2em;
+  }
+  body{
+    background-color: #F8F4F1;
+    font-family: 'Georgia', serif;
+  }
+  
+  

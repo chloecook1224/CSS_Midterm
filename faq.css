@@ -1,0 +1,113 @@
+/*FAQ*/
+.FAQ{
+    color: #6F7C44;
+    background-color: #DDCAB9;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-family: "Lucida Console", monospace;
+    margin-top: 8%;
+    margin-bottom: 10px;
+ }
+ #faq-page {
+    display:flex;
+    justify-content: space-between;
+    background-color: #DDCAB9;
+    padding: 20px;
+ }
+ .faq-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Georgia', serif;
+ }
+ .faq-body {
+    color: #F8F4F1;
+ }
+ .faq-text {
+    width: 50%;
+    color: #6F7C44;
+    h1 {
+        font-size: 32px;
+    }
+  
+    p {
+        font-size: 18px;
+        line-height: 1.6;
+    }
+  
+    a {
+        color: #6F7C44;
+        text-decoration: underline;
+    }
+ }
+ .faq-image img {
+    width: 550px;
+    height: 320px;
+    object-fit: cover;
+    object-position: 45% 45%;
+    padding-left: 20px;
+ }
+ #faq-search {
+    display: flex;
+    justify-content: center;
+    margin: 100px 0;
+    color: #6F7C44;
+ }
+ #faq-search input {
+    padding: 10px;
+    width: 55%;
+    border-radius: 0px;
+    border: 1px solid #9E9D6D;
+ }
+ #faq-search button {
+    padding: 10px 15px;
+    background-color: #9E9D6D;
+    border: none;
+    color: white;
+    border-radius: 0px;
+    cursor: pointer;
+    margin-left: -3px;
+ }
+ #faq-questions {
+    padding: 20px;
+ }
+ h2 {
+    text-align: center;
+    font-size: 24px;
+    color: #6F7C44;
+ }
+ ul {
+    list-style: none;
+    padding: 0;
+ }
+ ul li {
+    font-size: 18px;
+    margin: 10px 0;
+ }
+ details {
+    margin-bottom: 20px;
+    color: #6F7C44;
+ }
+ .details-box {
+    color: #DDCAB9;
+    padding: 20px;
+    margin-bottom: 30px; /* Space between sections */
+    border-radius: 8px; /* Rounded corners for the box */
+  }
+  #catherine {
+    background-color: #DDCAB9;
+    padding: 20px;
+    margin: 20px;
+ }
+ .Catherine-image img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+ }
+ 
+ 
+ 
