@@ -52,8 +52,13 @@ article {
    color: #6F7C44;
    font-size: 19px;
    text-align: center;
-}
-#tickets {
+   line-height: 18px;
+   margin: 0;
+ }
+ #tickets h2{
+   margin: 0;
+ }
+ #tickets {
    width: 20%;
    margin-top: 20px;
    margin-right: 20px;
@@ -61,7 +66,8 @@ article {
    background-color: #DDCAB9;
    padding: 20px;
    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-}
+ }
+ 
 
 
 /* Style for the Yumi image section */
