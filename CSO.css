@@ -296,10 +296,125 @@ body{
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */ 
     /* border: 20px solid #9E9D6D; */
 }
-
-
-/*FAQ*/
-#faq-page {
+ /* ABOUT */
+.About{
+    color: #6F7C44;
+    background-color: #DDCAB9;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-family: "Lucida Console", monospace;
+    margin-top: 8%;
+ }
+ #body {
+    background-color: #e5d7ca
+ }
+ #about-meet-symphony {
+    background-color: #e5d7ca;
+    margin-top: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    float: right;
+ }
+ .about-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #6F7C44;
+ }
+ .Bela-image img {
+    border: 5px solid #6F7C44;
+    max-width: 80%;
+    height: auto;
+    margin-right: 20px;
+ }
+ .Red-Rocks-image img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: 0;
+ }
+ #red-rock {
+    padding: 20px;
+    margin: 20px;
+ }
+ #mission-values,#red-rock, #dei-statement, #what-we-offer {
+    background-color: #DDCAB9;
+    padding: 20px;
+    margin: 20px;
+    color: #6F7C44;
+ }
+ .mission, .values {
+    margin: 20px 0;
+ }
+ ul {
+    padding-left: 20px;
+ }
+ ul li {
+    margin: 10px 0;
+ }
+ ul li strong {
+    color: #6F7C44;
+ }
+ 
+ 
+ .container_3{
+    width: 1366px;
+    overflow-x: auto;
+ }
+ .Bela-image{
+    margin-left: 600px;
+    position: absolute;
+    margin-top: 85px;
+    z-index: -1;
+    box-shadow: 0px 0px 0px 0px #DDCAB9;
+ 
+ 
+ }
+ .box_bella{
+    position: absolute;
+    width: 100%;
+    background-color: #DDCAB9;
+    margin-top: 50px;
+    right: 10px;
+    z-index: -2;
+ }
+ #Bela-image img{
+    width: 100%;  /* Set width to 100% to make it responsive */
+    height: auto;
+    border: 10px solid #DDCAB9;
+ }
+ 
+ 
+ .about-intro{
+    color: #F8F4F1;
+    width: 35%;
+    margin-top: 20px;
+    margin-left: 0px;
+    float: left;
+    background-color: #9E9D6D;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    /* border: 20px solid #9E9D6D; */
+ }
+ 
+ 
+ /*FAQ*/
+ .FAQ{
+    color: #6F7C44;
+    background-color: #DDCAB9;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-family: "Lucida Console", monospace;
+    margin-top: 8%;
+ }
+ #faq-page {
     display:flex;
     justify-content: space-between;
     background-color: #e5d7ca;
@@ -416,6 +531,4 @@ body{
     object-position: center;
     display: block;
  }
- 
- 
  
