@@ -171,6 +171,7 @@ article {
     font-size: 25px;
     font-family: "Lucida Console", monospace;
     margin-top: 8%;
+    margin-bottom: 10px;
 }
 
 body{
@@ -204,6 +205,9 @@ body{
     color: #6F7C44;
  }
  
+ .about-intro h2{
+    color: #F8F4F1;
+ }
  
  .Bela-image img {
     border: 5px solid #6F7C44;
